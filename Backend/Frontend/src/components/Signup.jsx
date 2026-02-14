@@ -27,7 +27,7 @@ export default function Signup() {
       confirmpassword: data.confirmpassword,
     };
     await axios
-      .post("http://localhost:5002/user/signup", userInfo, { withCredentials: true })
+      .post("https://chatsphereoriginal.onrender.com/user/signup", userInfo, { withCredentials: true })
       .then((response) => {
         console.log("Signup successful:", response.data);
         if (response.data) {
