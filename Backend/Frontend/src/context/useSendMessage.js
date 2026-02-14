@@ -10,7 +10,7 @@ const useSendMessage=()=> {
         setLoading(true);
         try {
             const response = await axios.post(
-                `http://localhost:5002/message/send/${selectedConversation._id}`,
+                `https://chatsphereoriginal.onrender.com/message/send/${selectedConversation._id}`,
                 { message },
                 { withCredentials: true }
             );
