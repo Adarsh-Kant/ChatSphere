@@ -1,4 +1,4 @@
-const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || import.meta.env.VITE_API_URL || 'https://chatsphereoriginal.onrender.com/user/signup';
+const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || import.meta.env.VITE_API_URL || 'https://chatsphereoriginal.onrender.com';
 
 import { useEffect, useState, useContext, createContext } from "react";
 import io from "socket.io-client";
