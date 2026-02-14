@@ -1,0 +1,4 @@
+.....Message Model.......
+sender id
+receiver id
+message
