@@ -12,7 +12,7 @@ const useGetMessage = () => {
             if (selectedConversation && selectedConversation._id) {
                 try {
                     const response = await axios.get(
-                        `http://localhost:5002/message/get/${selectedConversation._id}`,
+                        `https://chatsphereoriginal.onrender.com/message/get/${selectedConversation._id}`,
                         { withCredentials: true }
                     );
                     setMessages(response.data);
