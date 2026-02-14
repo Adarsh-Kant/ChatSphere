@@ -5,7 +5,7 @@ import express from "express";
 const app = express();
 const server = http.createServer(app);
 const allowedOrigins = [
-  "https://chatsphere-2-cztb.onrender.com",
+  "https://chatsphereoriginal.onrender.com",
   "http://localhost:5173",
   "http://localhost:5174",
   "http://localhost:5175",
