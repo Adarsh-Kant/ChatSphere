@@ -30,7 +30,7 @@ function App() {
           element={
             authUser ? (
               <div className="flex h-screen w-full bg-slate-950">
-                <div className="hidden md:block">
+                <div className="w-[4%] md:block hidden">
                   <Logout />
                 </div>
                 <div className={`${showLeft ? "block w-full md:w-[30%]" : "hidden md:block md:w-[30%]"} bg-black text-white`}>
