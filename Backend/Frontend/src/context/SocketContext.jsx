@@ -15,7 +15,7 @@ export const SocketProvider = ({ children }) => {
 
   useEffect(() => {
     if (authUser) {
-      const socket = io(SOCKET_URL, {
+      const socket = io("https://chatsphereoriginal.onrender.com", {
         query: { userId: authUser.user._id },
       });
       setSocket(socket);
